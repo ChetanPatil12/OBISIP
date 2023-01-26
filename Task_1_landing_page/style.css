@@ -1,0 +1,196 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url('imgs/travel_background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 30px 62px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; /* to make sure it appears on top of the background */
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px ;
+    color: white;
+    font-weight: 200;
+    font-size: small;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+
+section {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.hero {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 30%;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.hero h1{
+    font-size: 30px;
+    text-align:left;
+}
+
+.destinations{
+    margin-top: 50px;
+}
+.card{
+    color: white;
+    font-size: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right:100px;
+
+}
+
+.card-content{
+    font-size: 10px;
+    text-align: center;
+}
+
+.card-img{
+    height: 190.87px;
+    width: 150px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.i1{
+    background-image: url(imgs/bali.jpg);    
+}
+
+
+
+.i2{
+    background-image: url(imgs/greece.jpg);
+    
+}
+
+.i3{
+    background-image: url(imgs/iceland.jpg);
+    
+}
+
+.i4{
+    background-image: url(imgs/norway.jpg);
+    
+}
+
+.prop{
+    height: 190.87px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+    transition: transform .2s;
+}
+
+.prop:hover{
+    box-shadow: rgba(87, 87, 87, 0.434) 0px 7px 29px 0px;
+    transform: scale(1.1);
+}
+
+
+.button-28 {
+    margin-top: 10px;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #fcf9f9;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #fdfcfc;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: rgb(69, 69, 69);
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+    
+  }
+
+
+
+
