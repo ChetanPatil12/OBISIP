@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&family=Public+Sans:wght@200;300;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(11, 11, 11);
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.intro p{
+    position: absolute;
+    z-index: 1000;
+    margin-top: 23vh;
+    margin-bottom: 5px;
+    margin-left: 15vw;
+    color: rgb(215, 215, 215);
+    
+font-family: 'Public Sans', sans-serif;
+font-weight: 800;
+font-size:40px;
+
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+img{
+    display: none;
+}
+
+.btn1{
+    margin-top:30px ;
+    margin-left: 70px;
+}
+.btn2{
+    margin-top:30px ;
+    margin-left: 250px;
+    width: 180px;
+
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 18px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding:2px 20px;
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.btn::before{
+    content: "";
+    position:absolute;
+    width: 320px;
+    height: 250px;
+    border-radius: 140px;
+    background-color: #fff;
+    top: 70px;
+    left:50%;
+    animation: wave 5s infinite linear;
+    transform: all 1s;
+    z-index: -1;
+}
+
+@keyframes wave{
+    0%{transform: translateX(-50%) rotate(0deg);
+    }
+    100%{transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+.btn:hover{
+    color:black;
+}
+
+.btn:hover::before{
+    top:25px;
+    transition: top 1s;
+}
+
+
+.nav{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.nav span,.logo{
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+.nav ul li a, .home{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.heading{
+    color: white;
+}
+
+li p{
+    color: white;
+}
+

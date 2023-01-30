@@ -1,0 +1,42 @@
+.project_Header{
+  margin-top: 50px;
+  
+  display: flex;
+}
+
+.project_Header a{
+  position: absolute;
+  z-index: 1000;
+}
+
+
+.home{
+  margin-left: 70vw;
+  margin-top: 10px;
+}
+
+.headerList{
+  margin-top: 140px;
+  margin-left: 120px;
+
+}
+
+
+.headerList li p a{
+  position: absolute;
+  z-index: 1000;
+  color: white;
+}
+
+
+.logo{
+  margin-left: 120px;
+}
+
+.headerList li h2 a{
+  position: absolute;
+  z-index: 1000;
+  text-decoration: none;
+  color: white;
+}
+
