@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature_converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Temprature Converter</h1>
+        </div>
+        <div class="small_container">
+            <div class="degree">
+                
+                <p>Celcious</p>
+                <input type="number" id="deg">
+            </div>
+            
+            <div class="custom-select" >
+                    <div class="choice">
+                        <input type="radio" name="unit" value="faranite">
+                    <span>fahrenheit</span>
+                    </div>
+                    <div class="choice">
+                        <input type="radio" name="unit" value="kelvin">
+                    <span>Kelvin</span>
+                    </div>
+                    
+            </div>
+            <div class="result">
+                <p id="res"></p>
+            </div>
+            <button onclick="returnText()">
+                Convert
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
